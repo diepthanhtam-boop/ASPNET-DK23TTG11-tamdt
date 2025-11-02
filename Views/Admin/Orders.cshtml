@@ -1,0 +1,101 @@
+@model List<LaptopShopWebsite.Models.Order>
+@{
+    ViewData["Title"] = "Quản lý đơn hàng";
+    Layout = "_AdminLayout";
+}
+
+<div class="space-y-6">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+        <h2 class="text-xl font-semibold">Danh sách đơn hàng (@Model.Count)</h2>
+        <div class="flex items-center space-x-4">
+            <select class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option value="">Tất cả trạng thái</option>
+                <option value="pending">Chờ xử lý</option>
+                <option value="processing">Đang xử lý</option>
+                <option value="shipped">Đã gửi</option>
+                <option value="delivered">Đã giao</option>
+                <option value="cancelled">Đã hủy</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Orders Table -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Đơn hàng</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Khách hàng</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ngày đặt</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tổng tiền</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Trạng thái</th>
+                        <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                    @foreach (var order in Model)
+                    {
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="text-sm font-medium text-gray-900">#@order.Id.Substring(0, 8)</div>
+                                <div class="text-sm text-gray-500">@order.PaymentMethod</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="text-sm font-medium text-gray-900">@order.CustomerName</div>
+                                <div class="text-sm text-gray-500">@order.CustomerEmail</div>
+                                <div class="text-sm text-gray-500">@order.CustomerPhone</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                @order.CreatedAt.ToString("dd/MM/yyyy HH:mm")
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                @order.Total.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <form asp-action="UpdateOrderStatus" asp-route-id="@order.Id" method="post" class="inline">
+                                    <select name="status" onchange="this.form.submit()" 
+                                            class="text-xs font-semibold rounded-full px-2 py-1 border-0 focus:ring-2 focus:ring-blue-500
+                                                @(order.Status == "pending" ? "bg-yellow-100 text-yellow-800" : 
+                                                  order.Status == "processing" ? "bg-blue-100 text-blue-800" :
+                                                  order.Status == "shipped" ? "bg-purple-100 text-purple-800" :
+                                                  order.Status == "delivered" ? "bg-green-100 text-green-800" :
+                                                  "bg-red-100 text-red-800")">
+                                        <option value="pending" selected="@(order.Status == "pending")">Chờ xử lý</option>
+                                        <option value="processing" selected="@(order.Status == "processing")">Đang xử lý</option>
+                                        <option value="shipped" selected="@(order.Status == "shipped")">Đã gửi</option>
+                                        <option value="delivered" selected="@(order.Status == "delivered")">Đã giao</option>
+                                        <option value="cancelled" selected="@(order.Status == "cancelled")">Đã hủy</option>
+                                    </select>
+                                </form>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                <a asp-action="OrderDetails" asp-route-id="@order.Id"
+                                   class="text-blue-600 hover:text-blue-900 inline-flex items-center space-x-1">
+                                    <i data-lucide="eye" class="h-4 w-4"></i>
+                                    <span>Chi tiết</span>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+        @if (Model.Count == 0)
+        {
+            <div class="text-center py-12">
+                <i data-lucide="shopping-cart" class="h-12 w-12 text-gray-400 mx-auto mb-4"></i>
+                <h3 class="text-lg font-medium text-gray-900 mb-2">Chưa có đơn hàng nào</h3>
+                <p class="text-gray-500">Các đơn hàng sẽ xuất hiện ở đây khi khách hàng đặt mua</p>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        lucide.createIcons();
+    </script>
+}

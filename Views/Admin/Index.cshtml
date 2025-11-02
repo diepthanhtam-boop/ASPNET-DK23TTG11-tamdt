@@ -1,0 +1,158 @@
+@model dynamic
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_AdminLayout";
+}
+
+<div class="space-y-6">
+    <!-- Stats Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center">
+                <div class="bg-blue-100 p-3 rounded-lg">
+                    <i data-lucide="package" class="h-8 w-8 text-blue-600"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">@Model.TotalProducts</h3>
+                    <p class="text-gray-600">Sản phẩm</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center">
+                <div class="bg-green-100 p-3 rounded-lg">
+                    <i data-lucide="shopping-cart" class="h-8 w-8 text-green-600"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">@Model.TotalOrders</h3>
+                    <p class="text-gray-600">Đơn hàng</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center">
+                <div class="bg-purple-100 p-3 rounded-lg">
+                    <i data-lucide="mail" class="h-8 w-8 text-purple-600"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">@Model.TotalContacts</h3>
+                    <p class="text-gray-600">Liên hệ</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center">
+                <div class="bg-orange-100 p-3 rounded-lg">
+                    <i data-lucide="users" class="h-8 w-8 text-orange-600"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">@Model.TotalUsers</h3>
+                    <p class="text-gray-600">Khách hàng</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center">
+                <div class="bg-yellow-100 p-3 rounded-lg">
+                    <i data-lucide="dollar-sign" class="h-8 w-8 text-yellow-600"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">@Model.TotalRevenue.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</h3>
+                    <p class="text-gray-600">Doanh thu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Recent Orders -->
+        <div class="bg-white rounded-lg shadow-md">
+            <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                <h2 class="text-lg font-semibold">Đơn hàng gần đây</h2>
+                <a asp-action="Orders" class="text-blue-600 hover:text-blue-800 text-sm">Xem tất cả</a>
+            </div>
+            <div class="p-6">
+                @if (Model.RecentOrders.Count > 0)
+                {
+                    <div class="space-y-4">
+                        @foreach (var order in Model.RecentOrders)
+                        {
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <div>
+                                    <p class="font-medium">#@order.Id.Substring(0, 8)</p>
+                                    <p class="text-sm text-gray-600">@order.CustomerName</p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="font-medium">@order.Total.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</p>
+                                    <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full 
+                                        @(order.Status == "pending" ? "bg-yellow-100 text-yellow-800" : 
+                                          order.Status == "processing" ? "bg-blue-100 text-blue-800" :
+                                          order.Status == "shipped" ? "bg-purple-100 text-purple-800" :
+                                          order.Status == "delivered" ? "bg-green-100 text-green-800" :
+                                          "bg-red-100 text-red-800")">
+                                        @(order.Status == "pending" ? "Chờ xử lý" :
+                                          order.Status == "processing" ? "Đang xử lý" :
+                                          order.Status == "shipped" ? "Đã gửi" :
+                                          order.Status == "delivered" ? "Đã giao" : "Đã hủy")
+                                    </span>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-gray-500 text-center py-4">Chưa có đơn hàng nào</p>
+                }
+            </div>
+        </div>
+
+        <!-- Recent Contacts -->
+        <div class="bg-white rounded-lg shadow-md">
+            <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                <h2 class="text-lg font-semibold">Liên hệ gần đây</h2>
+                <a asp-action="Contacts" class="text-blue-600 hover:text-blue-800 text-sm">Xem tất cả</a>
+            </div>
+            <div class="p-6">
+                @if (Model.RecentContacts.Count > 0)
+                {
+                    <div class="space-y-4">
+                        @foreach (var contact in Model.RecentContacts)
+                        {
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <div>
+                                    <p class="font-medium">@contact.Name</p>
+                                    <p class="text-sm text-gray-600">@contact.Email</p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-sm text-gray-500">@contact.CreatedAt.ToString("dd/MM/yyyy")</p>
+                                    <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full 
+                                        @(contact.Status == "New" ? "bg-blue-100 text-blue-800" :
+                                          contact.Status == "Contacted" ? "bg-yellow-100 text-yellow-800" :
+                                          "bg-green-100 text-green-800")">
+                                        @(contact.Status == "New" ? "Mới" :
+                                          contact.Status == "Contacted" ? "Đã liên hệ" : "Đã xử lý")
+                                    </span>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-gray-500 text-center py-4">Chưa có liên hệ nào</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        lucide.createIcons();
+    </script>
+}

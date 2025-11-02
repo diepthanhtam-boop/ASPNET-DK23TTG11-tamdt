@@ -1,0 +1,222 @@
+@model List<LaptopShopWebsite.Models.Product>
+@{
+    ViewData["Title"] = "Sản phẩm";
+}
+
+<div class="min-h-screen bg-gray-50 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Page Header -->
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-4">
+                @if (!string.IsNullOrEmpty(ViewBag.Category))
+                {
+                    <text>Laptop @ViewBag.Category</text>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Search))
+                {
+                    <text>Kết quả tìm kiếm: "@ViewBag.Search"</text>
+                }
+                else
+                {
+                    <text>Tất cả sản phẩm</text>
+                }
+            </h1>
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                <p class="text-gray-600">
+                    Tìm thấy @Model.Count sản phẩm
+                </p>
+                
+                <div class="flex items-center gap-4">
+                    <!-- Sort Dropdown -->
+                    <form method="get" id="sortForm">
+                        <input type="hidden" name="search" value="@ViewBag.Search" />
+                        <input type="hidden" name="category" value="@ViewBag.Category" />
+                        <input type="hidden" name="brand" value="@ViewBag.Brand" />
+                        <input type="hidden" name="minPrice" value="@ViewBag.MinPrice" />
+                        <input type="hidden" name="maxPrice" value="@ViewBag.MaxPrice" />
+                        <select name="sortBy" onchange="document.getElementById('sortForm').submit()" 
+                                class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="name" selected="@(ViewBag.SortBy == "name")">Sắp xếp theo tên</option>
+                            <option value="price-low" selected="@(ViewBag.SortBy == "price-low")">Giá thấp đến cao</option>
+                            <option value="price-high" selected="@(ViewBag.SortBy == "price-high")">Giá cao đến thấp</option>
+                            <option value="rating" selected="@(ViewBag.SortBy == "rating")">Đánh giá cao nhất</option>
+                            <option value="newest" selected="@(ViewBag.SortBy == "newest")">Mới nhất</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-8">
+            <!-- Sidebar -->
+            <div class="hidden lg:block w-64 bg-white rounded-lg shadow-md p-6 h-fit">
+                <h3 class="text-lg font-semibold mb-4">Bộ lọc</h3>
+                
+                <form method="get" id="filterForm">
+                    <input type="hidden" name="search" value="@ViewBag.Search" />
+                    <input type="hidden" name="sortBy" value="@ViewBag.SortBy" />
+                    
+                    <!-- Brand Filter -->
+                    <div class="mb-6">
+                        <h4 class="font-medium mb-3">Thương hiệu</h4>
+                        <div class="space-y-2">
+                            @foreach (var brand in ViewBag.Brands)
+                            {
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="brand" value="@brand" 
+                                           checked="@(ViewBag.Brand == brand)"
+                                           class="rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
+                                    <span class="ml-2 text-sm">@brand</span>
+                                </label>
+                            }
+                        </div>
+                    </div>
+
+                    <!-- Category Filter -->
+                    <div class="mb-6">
+                        <h4 class="font-medium mb-3">Danh mục</h4>
+                        <div class="space-y-2">
+                            @foreach (var category in ViewBag.Categories)
+                            {
+                                <label class="flex items-center">
+                                    <input type="radio" name="category" value="@category" 
+                                           checked="@(ViewBag.Category == category)"
+                                           class="border-gray-300 text-blue-600 focus:ring-blue-500" />
+                                    <span class="ml-2 text-sm">@category</span>
+                                </label>
+                            }
+                        </div>
+                    </div>
+
+                    <!-- Price Range -->
+                    <div class="mb-6">
+                        <h4 class="font-medium mb-3">Khoảng giá</h4>
+                        <div class="space-y-2">
+                            <div class="flex gap-2">
+                                <input type="number" name="minPrice" value="@ViewBag.MinPrice" placeholder="Từ" 
+                                       class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                                <input type="number" name="maxPrice" value="@ViewBag.MaxPrice" placeholder="Đến" 
+                                       class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="w-full bg-blue-700 text-white py-2 px-4 rounded-lg hover:bg-blue-800 transition-colors">
+                        Áp dụng bộ lọc
+                    </button>
+                </form>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="flex-1">
+                @if (Model.Count == 0)
+                {
+                    <div class="text-center py-16">
+                        <div class="text-gray-500 text-lg mb-4">Không tìm thấy sản phẩm nào</div>
+                        <p class="text-gray-400">Thử thay đổi bộ lọc hoặc từ khóa tìm kiếm</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                        @foreach (var product in Model)
+                        {
+                            <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
+                                <div class="relative overflow-hidden rounded-t-xl">
+                                    <img src="@product.Image" 
+                                         alt="@product.Name" 
+                                         class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+                                    @if (product.OriginalPrice.HasValue)
+                                    {
+                                        <div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-md text-xs font-semibold">
+                                            SALE
+                                        </div>
+                                    }
+                                    @if (product.Featured)
+                                    {
+                                        <div class="absolute top-2 right-2 bg-blue-500 text-white px-2 py-1 rounded-md text-xs font-semibold">
+                                            HOT
+                                        </div>
+                                    }
+                                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
+                                        <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id"
+                                           class="bg-white text-gray-800 px-4 py-2 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 flex items-center space-x-2 hover:bg-gray-100">
+                                            <i data-lucide="eye" class="h-4 w-4"></i>
+                                            <span>Xem chi tiết</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="p-4">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="text-sm text-gray-500 font-medium">@product.Brand</span>
+                                        <div class="flex items-center space-x-1">
+                                            <i data-lucide="star" class="h-4 w-4 text-yellow-400 fill-current"></i>
+                                            <span class="text-sm text-gray-600">
+                                                @product.Rating (@product.Reviews)
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="font-semibold text-gray-800 mb-2 line-clamp-2 group-hover:text-blue-700 transition-colors">
+                                        @product.Name
+                                    </h3>
+
+                                    <div class="text-sm text-gray-600 mb-3 space-y-1">
+                                        <div>CPU: @product.Processor</div>
+                                        <div>RAM: @product.Ram</div>
+                                        <div>SSD: @product.Storage</div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between mb-3">
+                                        <div class="flex flex-col">
+                                            <span class="text-lg font-bold text-blue-700">
+                                                @product.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                            </span>
+                                            @if (product.OriginalPrice.HasValue)
+                                            {
+                                                <span class="text-sm text-gray-500 line-through">
+                                                    @product.OriginalPrice.Value.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                                </span>
+                                            }
+                                        </div>
+                                        <div class="text-sm text-gray-500">
+                                            Còn @product.InStock sản phẩm
+                                        </div>
+                                    </div>
+
+                                    <button onclick="addToCart('@product.Id')" 
+                                            class="w-full bg-blue-700 text-white py-2 px-4 rounded-lg hover:bg-blue-800 transition-colors flex items-center justify-center space-x-2 group"
+                                            @(product.InStock == 0 ? "disabled" : "")>
+                                        <i data-lucide="shopping-cart" class="h-4 w-4 group-hover:animate-pulse"></i>
+                                        <span>
+                                            @(product.InStock == 0 ? "Hết hàng" : "Thêm vào giỏ")
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        lucide.createIcons();
+        
+        function addToCart(productId) {
+            $.post('/Cart/AddToCart', { productId: productId }, function(data) {
+                if (data.success) {
+                    $('#cart-count').text(data.cartCount);
+                    $('#mobile-cart-count').text(data.cartCount);
+                    alert(data.message);
+                } else {
+                    alert(data.message);
+                }
+            });
+        }
+    </script>
+}

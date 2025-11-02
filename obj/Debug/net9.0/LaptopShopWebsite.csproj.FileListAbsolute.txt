@@ -1,0 +1,442 @@
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\appsettings.Development.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\appsettings.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.staticwebassets.runtime.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.staticwebassets.endpoints.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.exe
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.deps.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.runtimeconfig.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.pdb
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Humanizer.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.CodeDom.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Text.Json.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.csproj.AssemblyReference.cache
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.AssemblyInfoInputs.cache
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.AssemblyInfo.cs
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.csproj.CoreCompileInputs.cache
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.RazorAssemblyInfo.cache
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.RazorAssemblyInfo.cs
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\scopedcss\bundle\LaptopShopWebsite.styles.css
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\scopedcss\projectbundle\LaptopShopWebsite.bundle.scp.css
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\bog6xsohlq-b9sayid5wm.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\359p035yk2-61n19gt1b8.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\dy7o7dueay-xtxxf3hu2r.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\2ahul39jpy-bqjiyaj88i.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\xlr1yt5b1q-c2jlpeoesf.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\p3q1ae64h4-erw9l3u2r3.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\5uan700jol-aexeepp0ev.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\k4swenpa6w-d7shbmvgxk.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\puq3i8i1wm-ausgxo2sd3.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ag36cl1hn3-k8d9w2qqmf.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\uevjckactc-cosvhxvwiu.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ax8tfxo1xs-ub07r2b239.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\38gy80ampa-fvhpjtyr6v.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\utulxlvgmp-b7pk76d08c.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\7qyck4usxe-fsbi9cje9m.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\y4zc5uyk4n-rzd6atqjts.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ekwftg7n0s-ee0r1s7dh0.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\mj57bw5upo-dxx9fxp4il.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\m5shbtmk7j-jd9uben2k1.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\5z8at70rlx-khv3u5hwcm.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\sh9oad2eg1-r4e9w2rdcm.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\nkvca7ew2z-lcd1t2u6c8.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\5vns0jw1fn-c2oey78nd0.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\om4hzzi9xk-tdbxkamptv.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\t5exfu758c-j5mq2jizvt.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\667wpexy2k-06098lyss8.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\c7mlx62pff-nvvlpmu67g.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\eyozgw7jf5-s35ty4nyc5.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\444eb9jnce-pj5nd1wqec.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\hwyiypw8e8-46ein0sx1k.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\6l9nsit8eh-v0zj4ognzu.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\bptjc7pp7x-37tfw0ft22.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\l399j4ewhy-hrwsygsryq.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\oebwnxuct4-pk9g2wxc8p.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\fimvwgykhc-ft3s53vfgj.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\c2s5salxe3-6cfz1n2cew.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ngd0d1avd5-6pdc2jztkx.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\h2cy7ycx4g-493y06b0oq.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\zfdsku43eg-iovd86k7lj.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\t0y0cki2a4-vr1egmr9el.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\sn95x7mnlg-kbrnm935zg.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\mlk8cy525r-jj8uyg4cgr.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\kdf6wkl6a5-y7v9cxd14o.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\r8qnz2fvor-notf2xhcfb.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ofic1dk38b-h1s4sie4z3.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\nevni37dea-63fj8s7r0e.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\gc33w8dzpa-0j3bgjxly4.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\p7armbmv87-47otxtyo56.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ang1em8mqh-4v8eqarkd7.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\cbs8yjbcok-356vix0kms.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ubxd1octk2-83jwlth58m.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\1ymcbtd92x-mrlpezrjn3.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\hipsdnvma5-lzl9nlhx6b.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\gzcrp9qpym-ag7o75518u.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ohxjnq0igt-x0q3zqp4vz.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\rxc9id3627-0i3buxo5is.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\0jxuc2ln77-o1o13a6vjx.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\gvfe5vmj2c-ttgo8qnofa.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\8qlldytqty-2z0ns9nrw6.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\nep7g90p8n-muycvpuwrr.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\o04omivcf1-87fc7y1x7t.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\7lck75lrn3-mlv21k5csn.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\wyx8mu35ys-tuwcn384wz.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\2k3uvjo1x7-tuwcn384wz.gz
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.build.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.development.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopSh.BC41312B.Up2Date
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\refint\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.pdb
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.genruntimeconfig.cache
+D:\New folder\ASP.NET\07092025-nguyennhutlam\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\ref\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\appsettings.Development.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\appsettings.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.staticwebassets.runtime.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.staticwebassets.endpoints.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.exe
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.deps.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.runtimeconfig.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\LaptopShopWebsite.pdb
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Humanizer.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.CodeDom.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\System.Text.Json.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.csproj.AssemblyReference.cache
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.AssemblyInfoInputs.cache
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.AssemblyInfo.cs
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.csproj.CoreCompileInputs.cache
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.RazorAssemblyInfo.cache
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.RazorAssemblyInfo.cs
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\scopedcss\bundle\LaptopShopWebsite.styles.css
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\scopedcss\projectbundle\LaptopShopWebsite.bundle.scp.css
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\bog6xsohlq-b9sayid5wm.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\359p035yk2-61n19gt1b8.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\dy7o7dueay-xtxxf3hu2r.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\2ahul39jpy-bqjiyaj88i.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\xlr1yt5b1q-c2jlpeoesf.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\p3q1ae64h4-erw9l3u2r3.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\5uan700jol-aexeepp0ev.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\k4swenpa6w-d7shbmvgxk.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\puq3i8i1wm-ausgxo2sd3.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ag36cl1hn3-k8d9w2qqmf.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\uevjckactc-cosvhxvwiu.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ax8tfxo1xs-ub07r2b239.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\38gy80ampa-fvhpjtyr6v.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\utulxlvgmp-b7pk76d08c.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\7qyck4usxe-fsbi9cje9m.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\y4zc5uyk4n-rzd6atqjts.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ekwftg7n0s-ee0r1s7dh0.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\mj57bw5upo-dxx9fxp4il.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\m5shbtmk7j-jd9uben2k1.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\5z8at70rlx-khv3u5hwcm.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\sh9oad2eg1-r4e9w2rdcm.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\nkvca7ew2z-lcd1t2u6c8.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\5vns0jw1fn-c2oey78nd0.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\om4hzzi9xk-tdbxkamptv.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\t5exfu758c-j5mq2jizvt.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\667wpexy2k-06098lyss8.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\c7mlx62pff-nvvlpmu67g.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\eyozgw7jf5-s35ty4nyc5.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\444eb9jnce-pj5nd1wqec.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\hwyiypw8e8-46ein0sx1k.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\6l9nsit8eh-v0zj4ognzu.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\bptjc7pp7x-37tfw0ft22.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\l399j4ewhy-hrwsygsryq.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\oebwnxuct4-pk9g2wxc8p.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\fimvwgykhc-ft3s53vfgj.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\c2s5salxe3-6cfz1n2cew.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ngd0d1avd5-6pdc2jztkx.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\h2cy7ycx4g-493y06b0oq.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\zfdsku43eg-iovd86k7lj.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\t0y0cki2a4-vr1egmr9el.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\sn95x7mnlg-kbrnm935zg.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\mlk8cy525r-jj8uyg4cgr.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\kdf6wkl6a5-y7v9cxd14o.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\r8qnz2fvor-notf2xhcfb.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ofic1dk38b-h1s4sie4z3.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\nevni37dea-63fj8s7r0e.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\gc33w8dzpa-0j3bgjxly4.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\p7armbmv87-47otxtyo56.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ang1em8mqh-4v8eqarkd7.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\cbs8yjbcok-356vix0kms.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ubxd1octk2-83jwlth58m.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\1ymcbtd92x-mrlpezrjn3.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\hipsdnvma5-lzl9nlhx6b.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\gzcrp9qpym-ag7o75518u.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\ohxjnq0igt-x0q3zqp4vz.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\rxc9id3627-0i3buxo5is.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\0jxuc2ln77-o1o13a6vjx.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\gvfe5vmj2c-ttgo8qnofa.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\8qlldytqty-2z0ns9nrw6.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\nep7g90p8n-muycvpuwrr.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\o04omivcf1-87fc7y1x7t.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\7lck75lrn3-mlv21k5csn.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\wyx8mu35ys-tuwcn384wz.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\2k3uvjo1x7-tuwcn384wz.gz
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.build.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.development.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets\msbuild.LaptopShopWebsite.Microsoft.AspNetCore.StaticWebAssets.props
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets\msbuild.LaptopShopWebsite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets\msbuild.build.LaptopShopWebsite.props
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.LaptopShopWebsite.props
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.LaptopShopWebsite.props
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\staticwebassets.pack.json
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopSh.BC41312B.Up2Date
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\refint\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.pdb
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\LaptopShopWebsite.genruntimeconfig.cache
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\ref\LaptopShopWebsite.dll
+D:\New folder\ASP.NET\28092025- doanphuocmien\website LaptopShop\laptop\laptop\LaptopShopWebsite\obj\Debug\net9.0\compressed\9p586uwenn-rrs50jlvvz.gz

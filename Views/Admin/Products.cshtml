@@ -1,0 +1,472 @@
+@model List<LaptopShopWebsite.Models.Product>
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+    Layout = "_AdminLayout";
+    var totalProducts = Model.Count;
+    var inStockProducts = Model.Count(p => p.InStock > 0);
+    var outOfStockProducts = Model.Count(p => p.InStock == 0);
+    var featuredProducts = Model.Count(p => p.Featured);
+    var totalValue = Model.Sum(p => p.Price * p.InStock);
+}
+
+<div class="space-y-6">
+    <!-- Stats Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white rounded-lg shadow-md p-4">
+            <div class="flex items-center">
+                <div class="bg-blue-100 p-2 rounded-lg">
+                    <i data-lucide="package" class="h-6 w-6 text-blue-600"></i>
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm text-gray-600">Tổng sản phẩm</p>
+                    <p class="text-xl font-semibold text-gray-900">@totalProducts</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-4">
+            <div class="flex items-center">
+                <div class="bg-green-100 p-2 rounded-lg">
+                    <i data-lucide="check-circle" class="h-6 w-6 text-green-600"></i>
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm text-gray-600">Còn hàng</p>
+                    <p class="text-xl font-semibold text-gray-900">@inStockProducts</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-4">
+            <div class="flex items-center">
+                <div class="bg-red-100 p-2 rounded-lg">
+                    <i data-lucide="x-circle" class="h-6 w-6 text-red-600"></i>
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm text-gray-600">Hết hàng</p>
+                    <p class="text-xl font-semibold text-gray-900">@outOfStockProducts</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-4">
+            <div class="flex items-center">
+                <div class="bg-yellow-100 p-2 rounded-lg">
+                    <i data-lucide="star" class="h-6 w-6 text-yellow-600"></i>
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm text-gray-600">Nổi bật</p>
+                    <p class="text-xl font-semibold text-gray-900">@featuredProducts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div>
+            <h2 class="text-2xl font-bold text-gray-900">Quản lý sản phẩm</h2>
+            <p class="text-gray-600 mt-1">Tổng giá trị kho: @totalValue.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</p>
+        </div>
+        <div class="flex items-center space-x-3">
+            <div class="relative">
+                <input type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm..." 
+                       class="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-64">
+                <i data-lucide="search" class="absolute left-3 top-2.5 h-4 w-4 text-gray-400"></i>
+            </div>
+            <select id="categoryFilter" class="border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option value="">Tất cả danh mục</option>
+                <option value="Gaming">Gaming</option>
+                <option value="Business">Business</option>
+                <option value="Ultrabook">Ultrabook</option>
+                <option value="Professional">Professional</option>
+                <option value="Workstation">Workstation</option>
+                <option value="Other">Khác</option>
+            </select>
+            <a asp-action="CreateProduct" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-2">
+                <i data-lucide="plus" class="h-4 w-4"></i>
+                <span>Thêm sản phẩm</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Products Table -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200" id="productsTable">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                            <input type="checkbox" id="selectAll" class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                        </th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable(1)">
+                            Sản phẩm <i data-lucide="chevron-up-down" class="h-3 w-3 inline"></i>
+                        </th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable(2)">
+                            Thương hiệu <i data-lucide="chevron-up-down" class="h-3 w-3 inline"></i>
+                        </th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable(3)">
+                            Danh mục <i data-lucide="chevron-up-down" class="h-3 w-3 inline"></i>
+                        </th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable(4)">
+                            Giá <i data-lucide="chevron-up-down" class="h-3 w-3 inline"></i>
+                        </th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable(5)">
+                            Tồn kho <i data-lucide="chevron-up-down" class="h-3 w-3 inline"></i>
+                        </th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable(6)">
+                            Đánh giá <i data-lucide="chevron-up-down" class="h-3 w-3 inline"></i>
+                        </th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Trạng thái</th>
+                        <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                    @foreach (var product in Model)
+                    {
+                        <tr class="hover:bg-gray-50 product-row" data-category="@product.Category" data-name="@product.Name.ToLower()" data-brand="@product.Brand.ToLower()">
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <input type="checkbox" class="product-checkbox rounded border-gray-300 text-blue-600 focus:ring-blue-500" value="@product.Id">
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <div class="relative group">
+                                        <img src="@product.Image" alt="@product.Name" class="h-16 w-16 rounded-lg object-cover shadow-sm" />
+                                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200 rounded-lg flex items-center justify-center">
+                                            <i data-lucide="zoom-in" class="h-4 w-4 text-white opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4">
+                                        <div class="text-sm font-medium text-gray-900 max-w-xs truncate" title="@product.Name">@product.Name</div>
+                                        <div class="text-xs text-gray-500">ID: @(product.Id.Length > 8 ? product.Id.Substring(0, 8) : product.Id)</div>
+                                        <div class="text-xs text-gray-500 mt-1">
+                                            <span class="inline-flex items-center">
+                                                <i data-lucide="cpu" class="h-3 w-3 mr-1"></i>
+                                                @(product.Processor.Length > 30 ? product.Processor.Substring(0, 30) + "..." : product.Processor)
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <span class="text-sm font-medium text-gray-900">@product.Brand</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                @{
+                                    var categoryClass = product.Category switch
+                                    {
+                                        "Gaming" => "bg-red-100 text-red-800",
+                                        "Business" => "bg-blue-100 text-blue-800",
+                                        "Ultrabook" => "bg-purple-100 text-purple-800",
+                                        "Professional" => "bg-green-100 text-green-800",
+                                        _ => "bg-gray-100 text-gray-800"
+                                    };
+                                }
+                                <span class="inline-flex px-2 py-1 text-xs font-medium rounded-full @categoryClass">@product.Category</span>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="text-sm font-bold text-gray-900">
+                                    @product.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                </div>
+                                @if (product.OriginalPrice.HasValue)
+                                {
+                                    <div class="text-xs text-gray-500 line-through">
+                                        @product.OriginalPrice.Value.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                    </div>
+                                    <div class="text-xs text-green-600 font-medium">
+                                        Tiết kiệm @((product.OriginalPrice.Value - product.Price).ToString("C0", new System.Globalization.CultureInfo("vi-VN")))
+                                    </div>
+                                }
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <span class="text-sm font-medium text-gray-900 mr-2">@product.InStock</span>
+                                    @if (product.InStock <= 5 && product.InStock > 0)
+                                    {
+                                        <i data-lucide="alert-triangle" class="h-4 w-4 text-yellow-500" title="Sắp hết hàng"></i>
+                                    }
+                                    else if (product.InStock == 0)
+                                    {
+                                        <i data-lucide="x-circle" class="h-4 w-4 text-red-500" title="Hết hàng"></i>
+                                    }
+                                    else
+                                    {
+                                        <i data-lucide="check-circle" class="h-4 w-4 text-green-500" title="Còn hàng"></i>
+                                    }
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <div class="flex items-center mr-2">
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            var starClass = i <= product.Rating ? "text-yellow-400 fill-current" : "text-gray-300";
+                                            <i data-lucide="star" class="h-3 w-3 @starClass"></i>
+                                        }
+                                    </div>
+                                    <span class="text-xs text-gray-600">@product.Rating (@product.Reviews)</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex flex-col space-y-1">
+                                    @if (product.Featured)
+                                    {
+                                        <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-yellow-100 text-yellow-800">
+                                            <i data-lucide="star" class="h-3 w-3 mr-1"></i>Nổi bật
+                                        </span>
+                                    }
+                                    @if (product.InStock > 0)
+                                    {
+                                        <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-800">
+                                            <i data-lucide="check" class="h-3 w-3 mr-1"></i>Còn hàng
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-red-100 text-red-800">
+                                            <i data-lucide="x" class="h-3 w-3 mr-1"></i>Hết hàng
+                                        </span>
+                                    }
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                <div class="flex items-center justify-end space-x-1">
+                                    <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id" target="_blank"
+                                       class="text-blue-600 hover:text-blue-900 p-2 rounded-md hover:bg-blue-50 transition-colors" title="Xem chi tiết">
+                                        <i data-lucide="eye" class="h-4 w-4"></i>
+                                    </a>
+                                    <a asp-action="EditProduct" asp-route-id="@product.Id"
+                                       class="text-indigo-600 hover:text-indigo-900 p-2 rounded-md hover:bg-indigo-50 transition-colors" title="Chỉnh sửa">
+                                        <i data-lucide="edit" class="h-4 w-4"></i>
+                                    </a>
+                                    <button onclick="duplicateProduct('@product.Id')"
+                                            class="text-green-600 hover:text-green-900 p-2 rounded-md hover:bg-green-50 transition-colors" title="Sao chép">
+                                        <i data-lucide="copy" class="h-4 w-4"></i>
+                                    </button>
+                                    <form asp-action="DeleteProduct" asp-route-id="@product.Id" method="post" class="inline"
+                                          onsubmit="return confirm('Bạn có chắc muốn xóa sản phẩm này?')">
+                                        <button type="submit" class="text-red-600 hover:text-red-900 p-2 rounded-md hover:bg-red-50 transition-colors" title="Xóa">
+                                            <i data-lucide="trash-2" class="h-4 w-4"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+        @if (Model.Count == 0)
+        {
+            <div class="text-center py-12">
+                <i data-lucide="package" class="h-12 w-12 text-gray-400 mx-auto mb-4"></i>
+                <h3 class="text-lg font-medium text-gray-900 mb-2">Chưa có sản phẩm nào</h3>
+                <p class="text-gray-500 mb-4">Bắt đầu bằng cách thêm sản phẩm đầu tiên</p>
+                <a asp-action="CreateProduct" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                    Thêm sản phẩm
+                </a>
+            </div>
+        }
+    </div>
+    
+    <!-- Bulk Actions -->
+    <div id="bulkActions" class="hidden bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <span class="text-sm font-medium text-blue-900">Đã chọn <span id="selectedCount">0</span> sản phẩm</span>
+                <div class="flex items-center space-x-2">
+                    <button onclick="bulkAction('featured')" class="bg-yellow-500 text-white px-3 py-1 rounded text-sm hover:bg-yellow-600 transition-colors">
+                        <i data-lucide="star" class="h-3 w-3 inline mr-1"></i>Đặt nổi bật
+                    </button>
+                    <button onclick="bulkAction('unfeatured')" class="bg-gray-500 text-white px-3 py-1 rounded text-sm hover:bg-gray-600 transition-colors">
+                        <i data-lucide="star-off" class="h-3 w-3 inline mr-1"></i>Bỏ nổi bật
+                    </button>
+                    <button onclick="bulkAction('delete')" class="bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600 transition-colors">
+                        <i data-lucide="trash-2" class="h-3 w-3 inline mr-1"></i>Xóa
+                    </button>
+                </div>
+            </div>
+            <button onclick="clearSelection()" class="text-blue-600 hover:text-blue-800 text-sm">
+                <i data-lucide="x" class="h-4 w-4 inline mr-1"></i>Bỏ chọn
+            </button>
+        </div>
+    </div>
+    
+    <!-- Pagination -->
+    <div class="flex items-center justify-between mt-6">
+        <div class="text-sm text-gray-700">
+            Hiển thị <span class="font-medium">1</span> đến <span class="font-medium">@Model.Count</span> trong tổng số <span class="font-medium">@Model.Count</span> sản phẩm
+        </div>
+        <div class="flex items-center space-x-2">
+            <button class="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-md hover:bg-gray-50 disabled:opacity-50" disabled>
+                <i data-lucide="chevron-left" class="h-4 w-4"></i>
+            </button>
+            <button class="px-3 py-2 text-sm font-medium text-white bg-blue-600 border border-blue-600 rounded-md">
+                1
+            </button>
+            <button class="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-md hover:bg-gray-50 disabled:opacity-50" disabled>
+                <i data-lucide="chevron-right" class="h-4 w-4"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        lucide.createIcons();
+        
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const rows = document.querySelectorAll('.product-row');
+            
+            rows.forEach(row => {
+                const name = row.dataset.name;
+                const brand = row.dataset.brand;
+                const isVisible = name.includes(searchTerm) || brand.includes(searchTerm);
+                row.style.display = isVisible ? '' : 'none';
+            });
+        });
+        
+        // Category filter
+        document.getElementById('categoryFilter').addEventListener('change', function() {
+            const selectedCategory = this.value;
+            const rows = document.querySelectorAll('.product-row');
+            
+            rows.forEach(row => {
+                const category = row.dataset.category;
+                const isVisible = !selectedCategory || category === selectedCategory;
+                row.style.display = isVisible ? '' : 'none';
+            });
+        });
+        
+        // Select all checkbox
+        document.getElementById('selectAll').addEventListener('change', function() {
+            const checkboxes = document.querySelectorAll('.product-checkbox');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = this.checked;
+            });
+            updateBulkActions();
+        });
+        
+        // Individual checkboxes
+        document.querySelectorAll('.product-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', updateBulkActions);
+        });
+        
+        function updateBulkActions() {
+            const checkedBoxes = document.querySelectorAll('.product-checkbox:checked');
+            const bulkActions = document.getElementById('bulkActions');
+            const selectedCount = document.getElementById('selectedCount');
+            
+            if (checkedBoxes.length > 0) {
+                bulkActions.classList.remove('hidden');
+                selectedCount.textContent = checkedBoxes.length;
+            } else {
+                bulkActions.classList.add('hidden');
+            }
+        }
+        
+        function clearSelection() {
+            document.querySelectorAll('.product-checkbox').forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            document.getElementById('selectAll').checked = false;
+            updateBulkActions();
+        }
+        
+        function bulkAction(action) {
+            const checkedBoxes = document.querySelectorAll('.product-checkbox:checked');
+            const productIds = Array.from(checkedBoxes).map(cb => cb.value);
+            
+            if (productIds.length === 0) {
+                alert('Vui lòng chọn ít nhất một sản phẩm');
+                return;
+            }
+            
+            let confirmMessage = '';
+            switch(action) {
+                case 'featured':
+                    confirmMessage = `Đặt ${productIds.length} sản phẩm làm nổi bật?`;
+                    break;
+                case 'unfeatured':
+                    confirmMessage = `Bỏ ${productIds.length} sản phẩm khỏi danh sách nổi bật?`;
+                    break;
+                case 'delete':
+                    confirmMessage = `Xóa ${productIds.length} sản phẩm? Hành động này không thể hoàn tác!`;
+                    break;
+            }
+            
+            if (confirm(confirmMessage)) {
+                // Here you would make an AJAX call to perform the bulk action
+                console.log(`Performing ${action} on products:`, productIds);
+                alert(`Đã thực hiện ${action} trên ${productIds.length} sản phẩm`);
+                clearSelection();
+            }
+        }
+        
+        function duplicateProduct(productId) {
+            if (confirm('Bạn có muốn sao chép sản phẩm này?')) {
+                // Here you would make an AJAX call to duplicate the product
+                console.log('Duplicating product:', productId);
+                alert('Sản phẩm đã được sao chép thành công!');
+            }
+        }
+        
+        // Table sorting
+        let sortDirection = {};
+        
+        function sortTable(columnIndex) {
+            const table = document.getElementById('productsTable');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            
+            const isAscending = sortDirection[columnIndex] !== 'asc';
+            sortDirection[columnIndex] = isAscending ? 'asc' : 'desc';
+            
+            rows.sort((a, b) => {
+                const aText = a.cells[columnIndex].textContent.trim();
+                const bText = b.cells[columnIndex].textContent.trim();
+                
+                // Handle numeric sorting for price and stock
+                if (columnIndex === 4 || columnIndex === 5) {
+                    const aNum = parseFloat(aText.replace(/[^\d.-]/g, ''));
+                    const bNum = parseFloat(bText.replace(/[^\d.-]/g, ''));
+                    return isAscending ? aNum - bNum : bNum - aNum;
+                }
+                
+                // Handle text sorting
+                return isAscending ? aText.localeCompare(bText) : bText.localeCompare(aText);
+            });
+            
+            // Re-append sorted rows
+            rows.forEach(row => tbody.appendChild(row));
+            
+            // Update sort indicators
+            document.querySelectorAll('th i[data-lucide="chevron-up-down"]').forEach(icon => {
+                icon.setAttribute('data-lucide', 'chevron-up-down');
+            });
+            
+            const currentIcon = document.querySelector(`th:nth-child(${columnIndex + 1}) i`);
+            if (currentIcon) {
+                currentIcon.setAttribute('data-lucide', isAscending ? 'chevron-up' : 'chevron-down');
+            }
+            
+            lucide.createIcons();
+        }
+        
+        // Image preview on hover
+        document.querySelectorAll('.product-row img').forEach(img => {
+            img.addEventListener('mouseenter', function() {
+                // You could add image preview functionality here
+            });
+        });
+        
+        // Auto-refresh icons
+        setInterval(() => {
+            lucide.createIcons();
+        }, 1000);
+    </script>
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LaptopStore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <a asp-controller="Home" asp-action="Index" class="flex items-center space-x-2 text-blue-700 hover:text-blue-800 transition-colors">
+                    <i data-lucide="laptop" class="h-8 w-8"></i>
+                    <span class="text-xl font-bold">LaptopStore</span>
+                </a>
+
+                <!-- Search Bar - Desktop -->
+                <form asp-controller="Products" asp-action="Index" method="get" class="hidden md:flex items-center flex-1 max-w-md mx-8">
+                    <div class="relative w-full">
+                        <input type="text" name="search" value="@ViewBag.Search" placeholder="Tìm kiếm laptop..." 
+                               class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
+                        <i data-lucide="search" class="absolute left-3 top-2.5 h-5 w-5 text-gray-400"></i>
+                    </div>
+                </form>
+
+                <!-- Navigation - Desktop -->
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a asp-controller="Products" asp-action="Index" class="text-gray-700 hover:text-blue-700 transition-colors">Sản phẩm</a>
+                    <a asp-controller="Contact" asp-action="Index" class="text-gray-700 hover:text-blue-700 transition-colors">Liên hệ</a>
+                    
+                    @if (Context.Session.GetString("UserRole") == "admin")
+                    {
+                        <a asp-controller="Admin" asp-action="Index" class="text-gray-700 hover:text-blue-700 transition-colors flex items-center space-x-1">
+                            <i data-lucide="settings" class="h-4 w-4"></i>
+                            <span>Admin</span>
+                        </a>
+                    }
+                    
+                    <!-- Cart -->
+                    <a asp-controller="Cart" asp-action="Index" class="relative text-gray-700 hover:text-blue-700 transition-colors">
+                        <i data-lucide="shopping-cart" class="h-6 w-6"></i>
+                        <span id="cart-count" class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">0</span>
+                    </a>
+                    
+                    <!-- User Menu -->
+                    @if (Context.Session.GetString("UserId") != null)
+                    {
+                        <div class="relative group">
+                            <button class="flex items-center space-x-1 text-gray-700 hover:text-blue-700 transition-colors">
+                                <i data-lucide="user" class="h-5 w-5"></i>
+                                <span>@Context.Session.GetString("UserName")</span>
+                                <i data-lucide="chevron-down" class="h-4 w-4"></i>
+                            </button>
+                            <div class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 hidden group-hover:block">
+                                <a asp-controller="Auth" asp-action="Logout" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Đăng xuất</a>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <a asp-controller="Auth" asp-action="Login" class="text-gray-700 hover:text-blue-700 transition-colors flex items-center space-x-1">
+                            <i data-lucide="log-in" class="h-4 w-4"></i>
+                            <span>Đăng nhập</span>
+                        </a>
+                        <a asp-controller="Auth" asp-action="Register" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+                            Đăng ký
+                        </a>
+                    }
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700 hover:text-blue-700 transition-colors">
+                    <i data-lucide="menu" class="h-6 w-6"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden py-4 border-t hidden">
+                <!-- Mobile Search -->
+                <form asp-controller="Products" asp-action="Index" method="get" class="mb-4">
+                    <div class="relative">
+                        <input type="text" name="search" value="@ViewBag.Search" placeholder="Tìm kiếm laptop..." 
+                               class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
+                        <i data-lucide="search" class="absolute left-3 top-2.5 h-5 w-5 text-gray-400"></i>
+                    </div>
+                </form>
+
+                <div class="flex flex-col space-y-3">
+                    <a asp-controller="Products" asp-action="Index" class="text-gray-700 hover:text-blue-700 transition-colors py-2">Sản phẩm</a>
+                    <a asp-controller="Contact" asp-action="Index" class="text-gray-700 hover:text-blue-700 transition-colors py-2">Liên hệ</a>
+                    
+                    @if (Context.Session.GetString("UserRole") == "admin")
+                    {
+                        <a asp-controller="Admin" asp-action="Index" class="flex items-center space-x-2 text-gray-700 hover:text-blue-700 transition-colors py-2">
+                            <i data-lucide="settings" class="h-5 w-5"></i>
+                            <span>Admin</span>
+                        </a>
+                    }
+                    
+                    <a asp-controller="Cart" asp-action="Index" class="flex items-center space-x-2 text-gray-700 hover:text-blue-700 transition-colors py-2">
+                        <i data-lucide="shopping-cart" class="h-5 w-5"></i>
+                        <span>Giỏ hàng (<span id="mobile-cart-count">0</span>)</span>
+                    </a>
+                    
+                    @if (Context.Session.GetString("UserId") != null)
+                    {
+                        <div class="border-t pt-3 mt-3">
+                            <p class="text-gray-600 text-sm mb-2">Xin chào, @Context.Session.GetString("UserName")</p>
+                            <a asp-controller="Auth" asp-action="Logout" class="flex items-center space-x-2 text-gray-700 hover:text-blue-700 transition-colors py-2">
+                                <i data-lucide="log-out" class="h-5 w-5"></i>
+                                <span>Đăng xuất</span>
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="border-t pt-3 mt-3 space-y-2">
+                            <a asp-controller="Auth" asp-action="Login" class="flex items-center space-x-2 text-gray-700 hover:text-blue-700 transition-colors py-2">
+                                <i data-lucide="log-in" class="h-5 w-5"></i>
+                                <span>Đăng nhập</span>
+                            </a>
+                            <a asp-controller="Auth" asp-action="Register" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors block text-center">
+                                Đăng ký
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i data-lucide="laptop" class="h-8 w-8 text-blue-400"></i>
+                        <span class="text-xl font-bold">LaptopStore</span>
+                    </div>
+                    <p class="text-gray-300">Cửa hàng laptop uy tín với các sản phẩm chính hãng, giá cả phải chăng và dịch vụ tốt nhất.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Sản phẩm</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Laptop Gaming</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Laptop Văn phòng</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Laptop Đồ họa</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Phụ kiện</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Hỗ trợ</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Chính sách bảo hành</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Chính sách đổi trả</a></li>
+                        <li><a asp-controller="Contact" asp-action="Index" class="hover:text-white transition-colors">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Liên hệ</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p class="flex items-center space-x-2">
+                            <i data-lucide="phone" class="h-4 w-4"></i>
+                            <span>0123 456 789</span>
+                        </p>
+                        <p class="flex items-center space-x-2">
+                            <i data-lucide="mail" class="h-4 w-4"></i>
+                            <span>info@laptopstore.com</span>
+                        </p>
+                        <p class="flex items-center space-x-2">
+                            <i data-lucide="map-pin" class="h-4 w-4"></i>
+                            <span>123 Đường ABC, Quận 1, TP.HCM</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 LaptopStore. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/cart-fix.js" asp-append-version="true"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+        
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Update cart count on page load
+        updateCartCount();
+        
+        function updateCartCount() {
+            // This would be updated via AJAX in a real application
+            // For now, we'll use a placeholder
+        }
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

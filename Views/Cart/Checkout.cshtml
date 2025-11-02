@@ -1,0 +1,167 @@
+@{
+    ViewData["Title"] = "Thanh toán";
+    var cart = ViewBag.Cart as List<LaptopShopWebsite.Models.CartItem>;
+    var total = (decimal)ViewBag.Total;
+}
+
+<div class="min-h-screen bg-gray-50 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-8">
+            <nav class="flex" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                    <li class="inline-flex items-center">
+                        <a asp-controller="Cart" asp-action="Index" class="text-gray-700 hover:text-blue-600">
+                            Giỏ hàng
+                        </a>
+                    </li>
+                    <li>
+                        <div class="flex items-center">
+                            <i data-lucide="chevron-right" class="h-4 w-4 text-gray-400 mx-1"></i>
+                            <span class="text-blue-600 font-medium">Thanh toán</span>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <h1 class="text-3xl font-bold text-gray-900 mb-8">Thanh toán</h1>
+
+        @if (TempData["Error"] != null)
+        {
+            <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-6">
+                @TempData["Error"]
+            </div>
+        }
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- Checkout Form -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold mb-6">Thông tin giao hàng</h2>
+                
+                <form asp-action="PlaceOrder" method="post" class="space-y-4">
+                    <div>
+                        <label for="customerName" class="block text-sm font-medium text-gray-700 mb-1">Họ tên *</label>
+                        <input type="text" id="customerName" name="customerName" required
+                               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                               placeholder="Nhập họ tên đầy đủ">
+                    </div>
+                    
+                    <div>
+                        <label for="customerEmail" class="block text-sm font-medium text-gray-700 mb-1">Email *</label>
+                        <input type="email" id="customerEmail" name="customerEmail" required
+                               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                               placeholder="Nhập địa chỉ email">
+                    </div>
+                    
+                    <div>
+                        <label for="customerPhone" class="block text-sm font-medium text-gray-700 mb-1">Số điện thoại *</label>
+                        <input type="tel" id="customerPhone" name="customerPhone" required
+                               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                               placeholder="Nhập số điện thoại">
+                    </div>
+                    
+                    <div>
+                        <label for="customerAddress" class="block text-sm font-medium text-gray-700 mb-1">Địa chỉ giao hàng *</label>
+                        <textarea id="customerAddress" name="customerAddress" rows="3" required
+                                  class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                  placeholder="Nhập địa chỉ giao hàng chi tiết"></textarea>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-3">Phương thức thanh toán *</label>
+                        <div class="space-y-3">
+                            <label class="flex items-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-gray-50">
+                                <input type="radio" name="paymentMethod" value="cod" class="mr-3" required>
+                                <div class="flex items-center space-x-3">
+                                    <i data-lucide="truck" class="h-5 w-5 text-gray-600"></i>
+                                    <div>
+                                        <div class="font-medium">Thanh toán khi nhận hàng (COD)</div>
+                                        <div class="text-sm text-gray-500">Thanh toán bằng tiền mặt khi nhận hàng</div>
+                                    </div>
+                                </div>
+                            </label>
+                            
+                            <label class="flex items-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-gray-50">
+                                <input type="radio" name="paymentMethod" value="bank_transfer" class="mr-3" required>
+                                <div class="flex items-center space-x-3">
+                                    <i data-lucide="credit-card" class="h-5 w-5 text-gray-600"></i>
+                                    <div>
+                                        <div class="font-medium">Chuyển khoản ngân hàng</div>
+                                        <div class="text-sm text-gray-500">Chuyển khoản trước khi giao hàng</div>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="pt-6">
+                        <button type="submit" 
+                                class="w-full bg-blue-700 text-white py-3 px-4 rounded-lg hover:bg-blue-800 transition-colors font-semibold flex items-center justify-center space-x-2">
+                            <i data-lucide="check" class="h-5 w-5"></i>
+                            <span>Đặt hàng</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold mb-6">Đơn hàng của bạn</h2>
+                
+                <div class="space-y-4 mb-6">
+                    @foreach (var item in cart!)
+                    {
+                        <div class="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg">
+                            <img src="@item.Image" alt="@item.Name" class="w-16 h-16 object-cover rounded-lg">
+                            <div class="flex-1">
+                                <h3 class="font-medium text-gray-900">@item.Name</h3>
+                                <p class="text-sm text-gray-500">@item.Brand</p>
+                                <p class="text-sm text-gray-600">Số lượng: @item.Quantity</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-semibold text-blue-700">
+                                    @((item.Price * item.Quantity).ToString("C0", new System.Globalization.CultureInfo("vi-VN")))
+                                </p>
+                            </div>
+                        </div>
+                    }
+                </div>
+                
+                <div class="border-t pt-4 space-y-2">
+                    <div class="flex justify-between">
+                        <span>Tạm tính:</span>
+                        <span>@total.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>Phí vận chuyển:</span>
+                        <span class="text-green-600">Miễn phí</span>
+                    </div>
+                    <div class="flex justify-between text-lg font-semibold border-t pt-2">
+                        <span>Tổng cộng:</span>
+                        <span class="text-blue-700">@total.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</span>
+                    </div>
+                </div>
+                
+                <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                    <div class="flex items-start space-x-3">
+                        <i data-lucide="info" class="h-5 w-5 text-blue-600 mt-0.5"></i>
+                        <div class="text-sm text-blue-800">
+                            <p class="font-medium mb-1">Chính sách giao hàng:</p>
+                            <ul class="space-y-1 text-blue-700">
+                                <li>• Giao hàng miễn phí toàn quốc</li>
+                                <li>• Thời gian giao hàng: 1-3 ngày làm việc</li>
+                                <li>• Hỗ trợ đổi trả trong 7 ngày</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        lucide.createIcons();
+    </script>
+}
